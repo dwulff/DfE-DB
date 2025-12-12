@@ -1,7 +1,7 @@
 # Decisions-from-Experience Database (DfE-DB)
 Yujia Yang, Mikhail Spektor, Anna I. Thoma, Ralph Hertwig, & Dirk U. Wulff </br>
 
-### 🚨 The data is currently made available to data providers and will be shared publicly upon article acceptance.
+### 🚨 The data is currently made available to data providers and will be shared openly upon article acceptance.
 
 *If you use our database in your research, please cite as:*
 
