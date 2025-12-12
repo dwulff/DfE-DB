@@ -1,0 +1,10 @@
+# Remove DS store
+.DS_Store
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore .idea folder
+.idea/
+data/GS2008/.Rhistory
+.Rhistory
