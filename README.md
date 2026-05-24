@@ -5,10 +5,14 @@ Yujia Yang, Mikhail Spektor, Anna I. Thoma, Ralph Hertwig, & Dirk U. Wulff </br>
 
 *If you use our database in your research, please cite as:*
 
-### [Yang, Y., Spektor, M. S., Thoma, A., Hertwig, R., & Wulff, D. U. (2025). DfE-DB: A systematic database of 3.8 million human decisions across multiple experience-based tasks. *bioRxiv. DOI: https://github.com/dwulff/DfE-DB](https://github.com/dwulff/DfE-DB)
+### [Yang, Y., Spektor, M. S., Thoma, A., Hertwig, R., & Wulff, D. U. (2025). DfE-DB: A systematic database of 3.8 million human decisions across multiple experience-based tasks. *bioRxiv. https://doi.org/10.64898/2025.12.12.693971](https://doi.org/10.64898/2025.12.12.693971)
 
 Learning from experience is central to human decision making, yet research on experience-based choice remains fragmented across paradigms and disciplines. We present the Decision-from-Experience Database (DfE-DB), a standardized, openly accessible resource comprising 3.8 million trial-level decisions from 11,921 participants across 168 studies and 13 paradigms. By harmonizing raw behavioral data and classifying studies along 13 key design features, the database enables quantitative comparisons previously obscured by heterogeneous task and data structures. Using this resource, we show that choice tendencies—toward higher risk, expected value, or experienced mean—vary substantially across paradigms and are strongly shaped by core design features such as feedback type, outcome structure, stationarity, and sampling. These features explain substantial cross-study variability and reveal underexplored paradigm variants. DfE-DB provides the empirical infrastructure necessary to test the generality of behavioral phenomena and computational models, fostering a more integrated science of decisions from experience. <br>
 </br>
+
+## Contribute
+
+If you would like to add decisions from experience data to DfE-DB, please inform us by [creating an issue](https://github.com/dwulff/DfE-DB/issues/new/choose), including a description of the data set.  
 
 ## Organization
 This section introduces the database's structure. If you have any questions, contact [Yujia Yang](mailto:shuiyun97@gmail.com) or [Dirk U. Wulff](mailto:wulff@mpib-berlin.mpg.de).
