@@ -6,8 +6,8 @@ if (!requireNamespace("rstudioapi", quietly = TRUE)) install.packages("rstudioap
 path <- dirname(rstudioapi::getSourceEditorContext()$path)
 paper <- "ICRS2015"
 # Set as working directory the folder that contains the data as sent by the author
-raw_path1 = paste0("/Users/yang/Desktop/material/ARC/项目/3_Data/Final_Yujia/",paper,"/raw/itthipuripat2015_value/behExp1/data")
-raw_path2 = paste0("/Users/yang/Desktop/material/ARC/项目/3_Data/Final_Yujia/",paper,"/raw/itthipuripat2015_value/behExp2/data")
+raw_path1 = paste0(path, "/raw/itthipuripat2015_value/behExp1/data")
+raw_path2 = paste0(path, "/raw/itthipuripat2015_value/behExp2/data")
 data_path = paste0(path,"/processed/")
 setwd(data_path)
 
