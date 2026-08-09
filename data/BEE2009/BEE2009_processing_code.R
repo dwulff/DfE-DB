@@ -92,7 +92,6 @@ write.table(options_table2, file = file_name2, row.names = FALSE, quote = TRUE, 
 rm(list=setdiff(ls(), c("path", "paper", "raw_path", "data_path")))
 # Back to raw data directory
 setwd(raw_path)
-# raw_path1 = paste0("/Users/yang/Desktop/material/ARC/项目/3_Data/Final_Yujia/",paper,"/raw_data/EXP1/")
 setwd(paste0(raw_path, "EXP1/"))
 study <- 1
 # Read dataset
