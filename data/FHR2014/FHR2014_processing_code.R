@@ -132,7 +132,7 @@ rm(list=setdiff(ls(), c("path", "paper","raw_path","data_path")))
 setwd(raw_path)
 study <-2
 # load sampling data
-load("/Users/yang/Desktop/material/ARC/项目/3_Data/Sampling_Yujia/FHR2014/raw_data/data_prep.Rdata")
+load(paste0(raw_path, "data_prep.Rdata"))
 condition_list <- c("anger", "fear",  "pos" ,  "sadn")
 smp <- subset(sampling_data,cond%in%condition_list)
 problems <- c('c1', 'c3', 'c4', 'c5', 'c6', 'n1b', 'n2b', 'n3b', 'n4b')
