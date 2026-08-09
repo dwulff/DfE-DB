@@ -90,7 +90,7 @@ write.table(options_table2, file = file_name2, row.names = FALSE, quote = FALSE,
 
 ## Study 1
 # Clear all variables except path, paper, and studies
- rm(list=setdiff(ls(), c("path", "paper", "study","raw_path","data_path")))
+ rm(list=setdiff(ls(), c("path", "paper", "study", "raw_path", "data_path", "outcome_lists")))
 # Back to raw data directory
 setwd(raw_path)
 setwd("observeorbet-master/data")
@@ -196,5 +196,5 @@ for (sb in 1:length(subject_freq$values)) {
 # Combine and save processed data
 ds_st2_final <- do.call("rbind", psd_list)
 file_name <- paste0(paper, "_", "2", "_", "data.csv")
-setwd(path(data_path))
+setwd(data_path)
 write.table(ds_st2_final, file = file_name, row.names = FALSE, quote = FALSE, sep = ",", dec = ".")
