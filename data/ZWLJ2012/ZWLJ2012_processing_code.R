@@ -70,6 +70,7 @@ for (sb in 1:length(testTraining_list)) {
     #dt <- dt_train
     subject <- as.character(dt[[1]])
     sex <- tolower(as.character(dt[[4]]))
+    note1 <- paste("Session", as.character(dt[[3]]))
     # High prob vector
     hiProb <- round(as.vector(dt[[5]]), 1)
     # Low prob vector
@@ -82,14 +83,14 @@ for (sb in 1:length(testTraining_list)) {
       response_time <- round(as.vector(dt[[11]]))
       corrButt <- as.vector(dt_train[[9]]) # whether they pressed the button corresponding to the card with the higher probability 
       reward <- as.character(dt[[7]]) # corrList contains the outcome of the choice (reward or no reward)
-      note1 <- "Training phase"
+      note2 <- "Training phase"
       problem <- 1
     } else {
       pairBool <- dt[[11]]
       response_time <- round(as.vector(dt[[10]]))
       corrButt <- as.vector(dt[[8]])
       reward <- rep(2,times=length(response_time))
-      note1 <- "Testing phase"
+      note2 <- "Testing phase"
       problem <- 2
     }
     
@@ -103,7 +104,7 @@ for (sb in 1:length(testTraining_list)) {
     trial <- 1:length(choice)
     # Feedback during training only
     outcome <- ifelse(reward==2, choice, paste(choice, reward, sep = ":"))
-    stage <- age <- education <- note2 <- condition <- NA
+    stage <- age <- education <- condition <- NA
     # Create dataframe (trial will be added later)
     psd <- data.frame(paper, study, subject, problem, condition, options, trial, choice, outcome, response_time, stage, sex, age, education, note1, note2)
     return(psd)
