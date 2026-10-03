@@ -16,7 +16,7 @@ option <- LETTERS[1:18]
 out_1 <- c('Flatulence', 'Hallucinations', 'Fatigue', 'Memory loss', 'Itching', 'Depression', 'Fever','Hallucinations', 'Insomnia', 'Depression', 'Lalopathy', 'Memory loss', 'Fatigue', 'Dizziness', 'Itching', 'Trembling', 'Flatulence', 'Diarrhea')
 pr_1 <- c(1, 0.25, 0.9, 0.25, 0.7, 0.25, 0.4, 0.2, 0.55, 0.3, 0.3, 0.2, 0.7, 0.3, 0.6, 0.5, 0.7, 0.4)
 out_2 <- rep('Nothing', 18)
-pr_2 <- c(NA, 0.75, 0.1, 0.75, 0.3, 0.75, 0.6, 0.8, 0.45, 0.7, 0.3, 0.8, 0.3, 0.7, 0.4, 0.5, 0.3, 0.6)
+pr_2 <- c(NA, 0.75, 0.1, 0.75, 0.3, 0.75, 0.6, 0.8, 0.45, 0.7, 0.7, 0.8, 0.3, 0.7, 0.4, 0.5, 0.3, 0.6)
 options_table1 <- data.frame(option, out_1, pr_1, out_2, pr_2)
 
 # Save options
