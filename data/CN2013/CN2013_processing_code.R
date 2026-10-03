@@ -33,7 +33,7 @@ out_2 <-c(NA, 0, NA, 0, NA, 0, NA, 0, NA, 0, NA, 0, NA, 0, NA, 0, NA, 0, NA, 0, 
 pr_2 <- c(NA, 0.8, NA, 0.8, NA, 0.2, NA, 0.2, NA, 0.85, NA, 0.85, NA, 0.15, NA, 0.15, NA, 0.9, NA,
           0.9, NA, 0.1, NA, 0.1, NA, 0.95, NA, 0.95, NA, 0.05, NA, 0.05, NA, 0.8, NA, 0.8, NA, 0.2,
           NA, 0.2, NA, 0.85, NA, 0.85, NA, 0.15, NA, 0.15, NA, 0.9, NA, 0.9, NA, 0.1, NA, 0.1, NA,
-          0.95, NA, 0.05, NA, 0.05, NA, 0.05)
+          0.95, NA, 0.95, NA, 0.05, NA, 0.05)
 
 options_table <- data.frame(option, out_1, pr_1, out_2, pr_2)
 # Save options sheet
