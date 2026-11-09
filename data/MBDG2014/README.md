@@ -13,4 +13,4 @@ The search for different options before making a consequential choice is a centr
 https://doi.org/10.1002/bdm.1809
 
 ## Issues
-- NA
+- the raw data is also published at https://osf.io/r24y6/.

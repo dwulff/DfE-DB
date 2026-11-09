@@ -13,4 +13,4 @@ A framing bias shows risk aversion in problems framed as “gains” and risk se
 https://doi.org/10.1111/cogs.12268
 
 ## Issues
-- NA
+- the raw data is also published at https://osf.io/r24y6/.

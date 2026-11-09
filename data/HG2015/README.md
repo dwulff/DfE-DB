@@ -23,3 +23,6 @@ https://doi.org/10.1002/bdm.1855
     - excluded from processed data
   - note that:
     - There are one more subject than the number coded on the spreadsheet
+
+  
+- the raw data is also published at https://osf.io/r24y6/.

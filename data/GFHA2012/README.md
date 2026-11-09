@@ -15,3 +15,4 @@ https://doi.org/10.3389/fpsyg.2012.00173
 ## Issues
 - GFHA2012_1
   - reversed code in raw data is not correct
+  - the raw data is also published at https://osf.io/2myn6/.

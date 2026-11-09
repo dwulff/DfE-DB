@@ -19,4 +19,4 @@ https://doi.org/10.1016/j.evolhumbehav.2015.10.003
   - problem 1 shows no significant high-mean choice
 
 ## Raw Data
-Please contact the original authors for raw data
+Please contact the original authors for raw data. A version of trial-by-trial raw data is available as supplementary materials on the journal page. 

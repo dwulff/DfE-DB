@@ -16,3 +16,6 @@ https://doi.org/10.3758/s13421-014-0445-7
 - LLG2014_1
   - subject counting
     - the 60 participants in group condition were coded as 20 group. Each group refers to 1 subject. Therefore, in processed data, there are 20 individual subject and 20 group subject, not 80 subjects.
+
+
+- the raw data is also published at https://osf.io/r24y6/.

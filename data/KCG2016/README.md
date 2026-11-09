@@ -16,3 +16,6 @@ https://doi.org/10.1371/journal.pcbi.1005090
 - KCG2016_2
   - mismatch between raw data and reported in paper
     - only has 206 participants in raw data, while reported 207 in paper
+
+
+- the raw data is also published at https://github.com/wkool/tradeoffs.

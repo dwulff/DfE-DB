@@ -13,4 +13,4 @@ In recent years, ideas from the computational field of reinforcement learning ha
 https://doi.org/10.1523/JNEUROSCI.2978-14.2015
 
 ## Issues
-- NA
+- the raw data is also published at https://nivlab.princeton.edu/data/.

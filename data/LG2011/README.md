@@ -17,3 +17,5 @@ https://doi.org/10.1016/j.obhdp.2011.05.001
   - anomalous outcomes
     - Subject 'DFS032' participated in only one problem
 
+
+- the raw data is also published at https://osf.io/r24y6/.

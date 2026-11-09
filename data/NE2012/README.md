@@ -16,3 +16,6 @@ https://doi.org/10.3389/fpsyg.2012.00024
 - NE2012_2
   - subject 7 don't have raw data for problem 10, so it might be excluded during analysis
   - 28 out of 29 subjects from the raw data was used for the paper after excluding subject 7
+
+
+- the raw data is also published at https://nivlab.princeton.edu/data/.
