@@ -54,6 +54,11 @@ We validate our processed data in three ways: Whether the outcome distributions 
 ## Summary Information
 The table below presents an overview of the papers and paradigms included in the database. The first and second columns contain clickable links that can be used to navigate to the published paper and the corresponding data folder, respectively. </br>
 </br>
+The sharing permission column coded 4 types of permissions: </br>
+**"1"**: Agree to publish. The raw and processed data will be published as part of our database.</br>
+**"2"**: Agree to publish the processed data and permission to share the raw data upon request. The processed data will be published as part of our database. We will share the raw data with other researchers upon request.</br>
+**"3"**: Agree to publish the processed data. The processed data will be published as part of our database. Request to share the raw data can only be approved by the original authors.</br>
+**"4"**: Data already publicly available. The original repositories shared by original authors were attached in the 'repository' column.
 
 | paper                                                                                                                                                                                                                       | folder name | paradigm | number of study | number of problem | number of participant | number of decision | sharing permission | repository |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- | --- | --- | --- | --- | --- |--| ---|
